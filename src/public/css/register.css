@@ -1,0 +1,83 @@
+.register {
+    background: #FFFAF0;
+    height: 700px;
+    max-width: 100%;
+}
+
+.register__title {
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+.register__title-text {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "游明朝",YuMincho,
+        "ヒラギノ明朝 ProN W3",
+        "Hiragino Mincho ProN",
+        "MS P明朝",
+        "MS PMincho",
+        serif;
+        font-weight: bold;
+    color: #8B4513;
+}
+
+.form {
+    margin: 0 auto;
+    background: white;
+    height: 400px;
+    max-width: 500px;
+    text-align: center;
+    border: 0.3px solid ;
+    border-radius: 3px;
+    border-color: gainsboro;
+    padding: 40px 0;
+}
+
+.register__form {
+    margin: 20px 0 0 0;
+}
+
+.register__form-title {
+    text-align: left;
+    margin-left: 90px;
+}
+
+.register__form-item {
+    color: #8B4513;
+}
+
+.register__form-input {
+    text-align: left;
+    margin-left: 90px;
+
+}
+.register__form-input--text {
+    text-align: left;
+    width: 300px;
+    height: 30px;
+    background: #F5F5F5;
+    border-radius: 3px ;
+    border:none;
+}
+
+.form__error {
+    color: red;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 90px;
+}
+
+.button {
+    margin-top: 30px;
+
+}
+
+.register__form-button {
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    background: #8B4513;
+    color: white;
+    border: none;
+}

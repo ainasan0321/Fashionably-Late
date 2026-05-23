@@ -1,0 +1,42 @@
+.thanks {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    height: 500px;
+}
+
+.thanks__content {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.thanks__text {
+    color: #8B4513;
+}
+
+.home__link {
+    display: inline-block;
+    margin: 20px;
+    background: #8B4513;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: "游明朝",
+        YuMincho,
+        "ヒラギノ明朝 ProN W3",
+        "Hiragino Mincho ProN",
+        "MS P明朝",
+        "MS PMincho",
+        serif;
+}
+
+.thanks__back {
+    font-size: 200px;
+    color: #F5F5F5;
+    position: absolute;
+    align-items: center;
+    margin-top: 200px;
+    z-index: -1;
+}

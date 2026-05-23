@@ -1,0 +1,25 @@
+.header {
+    border-bottom: 0.3px solid;
+    border-color: gainsboro;
+    padding: 10px 0;
+}
+
+.header__inner {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.header__logo {
+    text-decoration: none;
+    margin: 0 auto;
+    color: #8B4513;
+    font-size: 25px;
+    font-family: "游明朝",
+        YuMincho,
+        "ヒラギノ明朝 ProN W3",
+        "Hiragino Mincho ProN",
+        "MS P明朝",
+        "MS PMincho",
+        serif;
+        font-weight: bold;
+}

@@ -1,0 +1,66 @@
+.header {
+    border-bottom: 0.3px solid;
+    border-color: gainsboro;
+    padding: 10px 0;
+}
+
+.header__inner {
+    position: relative;
+    max-width: 1230px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-left: 520px;
+    text-decoration: none;
+    color: #8B4513;
+    font-size: 25px;
+    font-family: "游明朝",
+        YuMincho,
+        "ヒラギノ明朝 ProN W3",
+        "Hiragino Mincho ProN",
+        "MS P明朝",
+        "MS PMincho",
+        serif;
+    font-weight: bold;
+}
+
+
+.header__nav {
+    height: 20px;
+    width: 150px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    padding: 8px 25px;
+    background: #F5F5F5;
+    color: #a08044;
+    font-family: "游明朝",
+        YuMincho,
+        "ヒラギノ明朝 ProN W3",
+        "Hiragino Mincho ProN",
+        "MS P明朝",
+        "MS PMincho",
+        serif;
+    border: 1px solid;
+}
+
+.header__nav-button {
+    text-decoration: none;
+    padding: 8px 25px;
+    background: #F5F5F5;
+    color: #a08044;
+    font-family: "游明朝",
+        YuMincho,
+        "ヒラギノ明朝 ProN W3",
+        "Hiragino Mincho ProN",
+        "MS P明朝",
+        "MS PMincho",
+        serif;
+    border: 1px solid;
+}

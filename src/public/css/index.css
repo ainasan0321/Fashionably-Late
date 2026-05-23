@@ -1,0 +1,105 @@
+.contact {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+}
+
+.contact__heading {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.contact__heading-text {
+    font-weight: bold;
+    font-family: "游明朝",
+        YuMincho,
+        "ヒラギノ明朝 ProN W3",
+        "Hiragino Mincho ProN",
+        "MS P明朝",
+        "MS PMincho",
+        serif;
+    color: #8B4513;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    width: 200px;
+    text-align: left;
+}
+
+.form__label-required {
+    color: red;
+}
+
+.form__input-text--name {
+    background: #F5F5F5;
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+    padding: 3px 5px;
+    width: 220px;
+}
+
+.form__input-text--tel{
+    background: #F5F5F5;
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+    padding: 3px 5px;
+}
+
+.form__input-text {
+    background: #F5F5F5;
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+    padding: 3px 5px;
+    width: 500px;
+}
+
+.form__input-item {
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+    padding: 3px 5px;
+}
+
+.form__input-textarea {
+    margin: 0 5px;
+    border: none;
+    padding: 10px 5px;
+    height: 100px;
+    background: #F5F5F5;
+    width: 500px;
+    border-radius: 3px;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.contact__form-button {
+    height: 35px;
+    width: 150px;
+    border-radius: 3px;
+    background: #8B4513;
+    color: white;
+    border: none;
+}
+
+.form__error {
+    color: red;
+    text-align: left;
+    font-size: 13px;
+    margin-left: 3px;
+}

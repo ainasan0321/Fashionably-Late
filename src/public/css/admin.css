@@ -1,0 +1,143 @@
+.admin {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+}
+
+.admin__heading {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.admin__heading-text {
+    font-weight: bold;
+    font-family: "游明朝",
+        YuMincho,
+        "ヒラギノ明朝 ProN W3",
+        "Hiragino Mincho ProN",
+        "MS P明朝",
+        "MS PMincho",
+        serif;
+    color: #8B4513;
+}
+
+.admin__category {
+    max-width: 1230px;
+    display: flex;
+    gap: 30px;
+}
+
+.admin__form {
+    display: flex;
+    gap: 30px;
+}
+
+.admin__input {
+    width: 400px;
+    height: 40px;
+    background: #f5f5f5;
+    border: none;
+    font-weight: bold;
+    color: #8B4510;
+}
+
+.admin__select-gender {
+    color: #8B4513;
+    font-weight: bold;
+    background: #f5f5f5;
+    border: none;
+}
+
+.admin__select-category_id {
+    color: #8B4513;
+    font-weight: bold;
+    background: #f5f5f5;
+    border: none;
+}
+
+.calendar {
+    color: #8B4513;
+    font-weight: bold;
+    background: #f5f5f5;
+    border: none
+}
+
+.search__button {
+    width: 100px;
+    height: 40px;
+    background: #8B4513;
+    border: none;
+    color: white
+}
+
+.reset__button {
+    width: 100px;
+    height: 40px;
+    background: rgb(217, 198, 175);
+    border: none;
+    color: white;
+}
+
+.export {
+    margin: 20px 10px;
+}
+
+.export__form {
+
+}
+
+.export__button {
+
+}
+
+.pagination {
+    font-size: 15px;
+}
+
+.pagination svg {
+    width: 20px;
+    height: 20px;
+}
+
+.admin__table {
+    margin: 30px auto;
+    align-items: center;
+    text-align: left;
+    border: 1px solid;
+}
+
+.admin__table-inner {
+    width: 100%;
+}
+
+.admin__table-row {
+    height: 60px;
+    width: 100%;
+    border-top: 0.3px solid;
+    background: #8B4513;
+}
+
+.admin__table-header {
+    padding: 0 10px;
+    color: white;
+
+}
+
+.admin__table-category {
+    height: 60px;
+    width: 100%;
+    border-top: 0.3px solid;
+}
+
+.admin__table-item {
+    padding: 0 10px;
+    color: #8B4513;
+    font-weight: bold;
+}
+
+.admin__table-item--link {
+    padding: 5px 20px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: rgb(217, 198, 175);
+}

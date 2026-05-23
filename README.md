@@ -3,15 +3,26 @@
 
 # 環境構築
 ## Dockerビルド
-- git clone git@github.com:ainasan0321/Fashionably-Late.git
+- コマンドライン上で`git clone git@github.com:ainasan0321/Fashionably-Late.git`でクローンします。
 - DockerDesktopを立ち上げる
-- docker-compose up -d --build
+- コマンドライン上で`docker-compose up -d --build`をしていただき
+`Fashionably-Late`があるか確認。
 
 ## Laravel環境構築
-- docker-compose exec php bash
-- composer install
-- cp .env.example  .env
-- php artisan key:generate
+- PHPコンテナ内にログインしたいので、`docker-compose exec php bash` をします。
+- 次に、パッケージのリストをインストールしたいので`composer install`をします。
+- `cp .env.example  .env` を実行。
+- `.env.example`をコピーし、コピーした`.env`を`docker-compose.yml`に記載されてる内容に変更をします。
+```
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
+```
+
+- 変更ができたら、`php artisan key:generate`.
 - php artisan migrate
 - php artisan db:seed 
 
